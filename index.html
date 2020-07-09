@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+  <style>
+  small {
+    color: #BB3F3F;
+}
+
+.myJumbotron {
+    height: 70px;
+    background: #610023 !important;
+    color: #FFD8B1;
+    border-radius: 5px;
+}
+
+.myJumbotron h6 {
+    text-align: end;
+    position: relative;
+    bottom: 70px;
+}
+
+.summary, .skills, .experience, .projects, .education{
+    border-radius: 5px;
+    min-height: 100px;
+    margin-top: 10px;
+    border-bottom: 0.5px solid #FFD8B1;
+    /* border-left: 5px solid #610023; */
+}
+
+.summary, .experience, .education {
+    border-left: 5px solid #610023;
+}
+
+.skills, .projects {
+    border-right: 5px solid #610023;
+}
+
+.badge {
+    background: #610023;
+    color: #FFD8B1;
+    margin: 2px;
+}
+
+.years {
+    border-right: 2px solid #610023;
+}
+  </style>
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="row"><small>This Resume has been built with HTML5, CSS3 and Bootstrap 4</small></div>
+
+        <div class="row">
+            <div class="col-md-12 myJumbotron">
+                <h3>Neha</h3>
+                <p>Web Developer</p>
+                <h6>@: nehabhat2209@gmail.com</h6>
+                <h6>Ph: +91-7624845965</h6>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 summary">
+                <h5>Professional Summary</h5>
+                <ul>
+                    <li>1 year of experience in Web Development and 3.7 years of total experience in IT.</li>
+                    <li>Ability to create beautiful web applications using HTML5, CSS3, Bootstrap 4, JavaScript, jQuery and Angular based on requirement.</li>
+                    <li>Proficient in building responsive applications with mobile first approach using Bootstrap 4.</li>
+                    <li>Experienced in building Single Page Applications using Angular 7/8/9</li>
+                    <li>Experienced in writing clean, time and space optimized code.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 skills">
+                <h5>Skills</h5>
+                <ul>
+                    <li><span>Web Technologies: <span class="badge">HTML5</span><span class="badge">CSS3</span><span     class="badge">JavaScript</span><span class="badge">TypeScript</span></li>
+                    <li>Frameworks and Libraries: <span class="badge">Angular 7/8/9</span><span class="badge">Angular Material</span><span class="badge">jQuery</span><span class="badge">Bootstrap 4</span></li>
+                    <li>Design Tools: <span class="badge">Adobe XD</span></li>
+                    <li>IDE and Tools: <span class="badge">Notepad++</span><span class="badge">VS Code</span><span class="badge">WebStorm</span></li>
+                    <li>Version Control: <span class="badge">Git</span></li>
+                    <li>Others: <span class="badge">NPM</span><span class="badge">Angular CLI</span><span class="badge">JIRA</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 experience">
+                <h5>Experience</h5>
+                <div class="row">
+                    <div class="col-md-3 years">04/07/2016 - 05/02/2020</div>
+                    <div class="col-md-9 exp">
+                        <h6>Oracle India Pvt Ltd <small>IT Consultant</small></h6>
+                        
+                        <ul>
+                            <li>Joined as a Campus Hire for IT Associate Consultant post in 2016</li>
+                            <li>Handled the Data cloning and Disaster Recovery of several critical Customers and got promoted as IT Consultant in 2018</li>
+                            <li>Switched internally as a UI Developer in Angular in 2019 and demonstrated excellent work capability and pixel perfect attention to details</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 projects">
+                <h5>Projects</h5>
+                    <ul>
+                        <li>
+                            <h6>Atom</h6>
+                            <span><i>Project Duration:</i> In progress since August 2018</span><br>
+                            <span><i>Technologies Used: </i>
+                            HTML5, CSS3, TypeScript, Angular 7, Django Rest Framework</span><br>
+                            <span><i>Project Description:</i></span>
+                            <ul>
+                                <li>Provision to schedule and run jobs or activities requested by the Customer</li>
+                                <li>Provision to create various job related parameters beforehand</li>
+                                <li>Provision to monitor the execution of jobs. User will be alerted incase of errors or failures</li>
+                            </ul>
+                            <span><i>Roles and Responsibilities:</i></span>
+                            <ul>
+                                <li>Application development using HTML5, CSS3 and Angular 7</li>
+                                <li>Maintenance, bug fixes and support</li>
+                            </ul>
+                        </li>
+                        <hr>
+                        <li>
+                            <h6>Semaphore</h6>
+                            <span><i>Project Duration:</i> In progress since June 2019</span><br>
+                            <span><i>Technologies Used: </i>
+                            HTML5, CSS3, TypeScript, Angular 8, Django Rest Framework</span><br>
+                            <span><i>Project Description:</i></span>
+                            <ul>
+                                <li>Application for employees to record the tasks worked by them</li>
+                                <li>Provision for Managers to monitor the work done by the team members on a daily basis</li>
+                                <li>Employee/Manager can change the priorities of the tasks and re-assign the tickets</li>
+                                <li>One click way to fetch monthly/quarterly/yearly reports</li>
+                            </ul>
+                            <span><i>Roles and Responsibilities:</i></span>
+                            <ul>
+                                <li>Application design using Adobe XD</li>
+                                <li>Application development using HTML5, CSS3 and Angular 8</li>
+                                <li>Maintenance, bug fixes and support</li>
+                            </ul>
+                        </li>
+                        <hr>
+                        <li>
+                            <h6>COVID-19 Tracker <small>Personal Project</small></h6>
+                            <span><i>Link:</i> <a href="https://neha-bhat.github.io" target="_blank">COVID-19 Tracker</a><a href="https://neha-bhat.github.io" target="_blank"> (https://neha-bhat.github.io)</a></span><br>
+                            <span><i>Project Duration:</i> Completed in June 2020</span><br>
+                            <span><i>Technologies Used: </i>
+                            HTML5, CSS3, TypeScript, Angular 9</span><br>
+                            <span><i>Project Description:</i></span>
+                            <ul>
+                                <li>Provides realtime global details of confirmed, recovered and deceased cases in text and visual format</li>
+                                <li>Provides a table of top 10 COVID-19 affected countries</li>
+                                <li>User can also choose a country to view the details</li>
+                            </ul>
+                            <span><i>Roles and Responsibilities:</i></span>
+                            <ul>
+                                <li>
+                                    Application development using HTML5, CSS3, Bootstrap 4 and Angular 9
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 education">
+                <h5>Education</h5>
+                <div class="row">
+                    <div class="col-md-2 years">2016</div>
+                    <div class="col-md-10">
+                        <h6>N.M.A.M Institute of Technology, Nitte</h6>
+                        <span>B.E in Electronics and Communication</span><br>
+                        <span>CGPA : 8.77/10</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-2 years">2012</div>
+                    <div class="col-md-10">
+                        <h6>Poornaprajna Pre University College, Udupi</h6>
+                        <span>P.U.C in PCMB</span><br>
+                        <span>Percentage : 91.83%</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-2 years">2010</div>
+                    <div class="col-md-10">
+                        <h6>St. Cecily's Girls' High School, Udupi</h6>
+                        <span>S.S.L.C</span><br>
+                        <span>Percentage : 96.16%</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
