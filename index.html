@@ -1,238 +1,343 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neha_UI_Resume</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  
-  <style>
-  small {
-    color: #BB3F3F;
+	<meta charset="UTF-8">
+	<title></title>
+	
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<style>
+		.contact-info {
+	text-align: right;
+	padding-right: 10px;
+}
+.fluid-container {
+	margin: auto 20px;
 }
 
-.myJumbotron {
-    height: 70px;
-    background: #610023 !important;
-    color: #FFD8B1;
-    border-radius: 5px;
+.who-is-it {
+	padding-left: 10px;
 }
 
-.myJumbotron h6 {
-    text-align: end;
-    position: relative;
-    bottom: 70px;
-}
-
-.summary, .skills, .experience, .projects, .education{
-    border-radius: 5px;
-    min-height: 100px;
-    margin-top: 10px;
-    border-bottom: 0.5px solid #FFD8B1;
-    /* border-left: 5px solid #610023; */
-}
-
-.summary, .experience, .education {
-    border-left: 5px solid #610023;
-}
-
-.skills, .projects {
-    border-right: 5px solid #610023;
+.jumbotron {
+	background: #2F2519;
+	color: #ffffff;
 }
 
 .badge {
-    background: #610023;
-    color: #FFD8B1;
-    margin: 2px;
+	background-color: #AD6989;
+	margin-right: 2px;
 }
+ i {
+	 font-size:14px;
+ }
+ 
+ .my-section {
+	 position: relative;
+	 left: 0px;
+	 border-bottom: 3px solid #2F2519;
+	 border-radius: 4px;
+ }
+ 
+ .tenure {
+	 text-align: right;
+ }
+ 
+ .list-company {
+	 text-decoration: none;
+ }
+ 
+ .company {
+	 background: #AD6989;
+	 color: #ffffff;
+ }
+ 
+ 
+	</style>
 
-.years {
-    border-right: 2px solid #610023;
-}
-  </style>
 </head>
 <body>
-    <div class="container">
-
-
-        <div class="row"><small>This Resume has been built with HTML5, CSS3 and Bootstrap 4</small></div>
-
-        <div class="row">
-            <div class="col-md-12 myJumbotron">
-                <h3>Neha</h3>
-                <p>Front End Developer</p>
-                <h6>@: nehabhat2209@gmail.com</h6>
-                <h6>Ph: +91-7624845965</h6>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 summary">
-                <h5>Professional Summary</h5>
-                <ul>
-                    <li>2 years of experience in Web Development and 3.7 years of total experience in IT.</li>
-                    <li>Ability to create beautiful web applications using HTML5, CSS3, Bootstrap 4, JavaScript, jQuery and Angular based on requirement.</li>
-                    <li>Proficient in building responsive applications with mobile first approach using Bootstrap 4.</li>
-                    <li>Experienced in building Single Page Applications using Angular 6/7/8/9</li>
-                    <li>Experienced in writing clean, time and space optimized code.</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 skills">
-                <h5>Skills</h5>
-                <ul>
-                    <li><span>Web Technologies: <span class="badge">HTML5</span><span class="badge">CSS3</span><span class="badge">JavaScript</span><span class="badge">Node.js</span><span class="badge">TypeScript</span></li>
-                    <li>Frameworks and Libraries: <span class="badge">Angular 6/7/8/9</span><span class="badge">Angular Material</span><span class="badge">jQuery</span><span class="badge">Bootstrap 4</span></li>
-                    <li>Design Tools: <span class="badge">Adobe XD</span></li>
-                    <li>Databases: <span class="badge">MongoDB</span></li>
-                    <li>IDE and Tools: <span class="badge">Notepad++</span><span class="badge">VS Code</span><span class="badge">WebStorm</span></li>
-                    <li>Version Control: <span class="badge">Git</span></li>
-                    <li>Others: <span class="badge">NPM</span><span class="badge">Angular CLI</span><span class="badge">JIRA</span></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 experience">
-                <h5>Experience</h5>
-                <div class="row">
-                    <div class="col-md-3 years">04/07/2016 - 05/02/2020</div>
-                    <div class="col-md-9 exp">
-                        <h6>Oracle India Pvt Ltd <small>IT Consultant</small></h6>
-                        
-                        <ul>
-                            <li>Joined as a Campus Hire for IT Associate Consultant post in 2016</li>
-                            <li>Handled the Data cloning and Disaster Recovery of several critical Customers and got promoted as IT Consultant in 2018</li>
-                            <li>Started working as a UI Developer in Angular in 2018 and demonstrated excellent work capability and pixel perfect attention to details</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 projects">
-                <h5>Projects</h5>
-                <ul>
-                        <li>
-                            <h6>ReD - Refresh-DR Shiftpass Application</h6>
-                            <span><i>Project Duration:</i> April 2018 - September 2018</span><br>
-                            <span><i>Technologies Used: </i>
-                             HTML5, CSS3, Bootstrap 4, Angular 6, Django Rest Framework</span><br>
-                            <span><i>Project Description:</i></span>
-                            <ul>
-                                <li>Team specific application wherein every team member has to create an account</li>
-                                <li>User can view the status of the tickets for the day and update the same</li>
-                                <li>Shift handover happens on button click at the end of every shift</li>
-                            </ul>
-                            <span><i>Roles and Responsibilities:</i></span>
-                            <ul>
-                                <li>Application development using HTML5, CSS3, Bootstrap 4 and Angular 6</li>
-                                <li>Maintenance, bug fixes and support</li>
-                            </ul>
-                        </li>
-                        <hr>
-                        <li>
-                            <h6>Atom</h6>
-                            <span><i>Project Duration:</i> In progress since February 2018</span><br>
-                            <span><i>Technologies Used: </i>
-                            HTML5, CSS3, TypeScript, Angular 7, Django Rest Framework</span><br>
-                            <span><i>Project Description:</i></span>
-                            <ul>
-                                <li>Provision to schedule and run jobs or activities requested by the Customer</li>
-                                <li>Provision to create various job related parameters beforehand</li>
-                                <li>Provision to monitor the execution of jobs. User will be alerted incase of errors or failures</li>
-                            </ul>
-                            <span><i>Roles and Responsibilities:</i></span>
-                            <ul>
-                                <li>Application development using HTML5, CSS3 and Angular 7</li>
-                                <li>Maintenance, bug fixes and support</li>
-                            </ul>
-                        </li>
-                        <hr>
-                        <li>
-                            <h6>Semaphore</h6>
-                            <span><i>Project Duration:</i> In progress since August 2018</span><br>
-                            <span><i>Technologies Used: </i>
-                            HTML5, CSS3, TypeScript, Angular 8, Django Rest Framework</span><br>
-                            <span><i>Project Description:</i></span>
-                            <ul>
-                                <li>Application for employees to record the tasks worked by them</li>
-                                <li>Provision for Managers to monitor the work done by the team members on a daily basis</li>
-                                <li>Employee/Manager can change the priorities of the tasks and re-assign the tickets</li>
-                                <li>One click way to fetch monthly/quarterly/yearly reports</li>
-                            </ul>
-                            <span><i>Roles and Responsibilities:</i></span>
-                            <ul>
-                                <li>Application design using Adobe XD</li>
-                                <li>Application development using HTML5, CSS3 and Angular 8</li>
-                                <li>Maintenance, bug fixes and support</li>
-                            </ul>
-                        </li>
-                        <hr>
-                        <li>
-                            <h6>COVID-19 Tracker <small>Personal Project</small></h6>
-                            <span><i>Link:</i> <a href="https://neha-bhat.github.io" target="_blank">COVID-19 Tracker</a><a href="https://neha-bhat.github.io" target="_blank"> (https://neha-bhat.github.io)</a></span><br>
-                            <span><i>Project Duration:</i> Completed in June 2020</span><br>
-                            <span><i>Technologies Used: </i>
-                            HTML5, CSS3, TypeScript, Angular 9</span><br>
-                            <span><i>Project Description:</i></span>
-                            <ul>
-                                <li>Provides realtime global details of confirmed, recovered and deceased cases in text and visual format</li>
-                                <li>Provides a table of top 10 COVID-19 affected countries</li>
-                                <li>User can also choose a country to view the details</li>
-                            </ul>
-                            <span><i>Roles and Responsibilities:</i></span>
-                            <ul>
-                                <li>
-                                    Application development using HTML5, CSS3, Bootstrap 4 and Angular 9
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 education">
-                <h5>Education</h5>
-                <div class="row">
-                    <div class="col-md-2 years">2016</div>
-                    <div class="col-md-10">
-                        <h6>N.M.A.M Institute of Technology, Nitte</h6>
-                        <span>B.E in Electronics and Communication</span><br>
-                        <span>CGPA : 8.77/10</span>
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-md-2 years">2012</div>
-                    <div class="col-md-10">
-                        <h6>Poornaprajna Pre University College, Udupi</h6>
-                        <span>P.U.C in PCMB</span><br>
-                        <span>Percentage : 91.83%</span>
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-md-2 years">2010</div>
-                    <div class="col-md-10">
-                        <h6>St. Cecily's Girls' High School, Udupi</h6>
-                        <span>S.S.L.C</span><br>
-                        <span>Percentage : 96.16%</span>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
+	<div class="fluid-container">
+		<div class="row">
+		<div class="jumbotron">
+			<div class="row">
+				<div class="col">
+					<h3 class="who-is-it">Neha</h3>
+					<h6 class="who-is-it">Full Stack Developer</h6>
+				</div>
+				<div class="col"></div>
+				<div class="col">
+					<h6 class="contact-info">+91-7624845965</h6>
+					<h6 class="contact-info">nehabhat2209@gmail.com</h6>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="row">
+			<div class="my-section">
+				<h4>Professional Summary</h4>
+				
+				<ul>
+					<li><span>3 years of experience in Web Development and 4.5 years of total experience in IT.</span></li>
+					<li><span>Ability to create beautiful web applications using HTML5, CSS3, Bootstrap 4, JavaScript and Angular based on requirement.<span></li>
+					<li><span>Proficient in building responsive applications with mobile first approach using Bootstrap 4.</span></li>
+					<li><span>Experienced in building Single Page Applications using Angular 7/8/9</span></li>
+					<li><span>Experienced in writing Node APIs to access MongoDB from Angular Application</span></li>
+					<li><span>Experienced in writing clean, time and space optimized code.</span></li>
+					<li><span>Experienced in working in Agile Environment</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="my-section">
+				<h4>Skills</h4>
+			<div class="col">
+				<div class="row">
+				<div class="col">
+					<i>Primary</i>
+					<ul>
+					<li><span>Web Technologies: </span><span class="badge">HTML5</span><span class="badge">CSS3</span><span class="badge">JavaScript</span><span class="badge">TypeScript</span></li>
+					<li><span>Frameworks & Libraries: </span><span class="badge">Angular 7/8/9</span><span class="badge">Angular Material</span><span class="badge">Bootstrap 4</span></li>
+					<li><span>Design Tools: </span><span class="badge">Adobe XD</span><span class="badge">Figma</span></li>
+					<li><span>IDE & Tools: </span><span class="badge">Notepad++</span><span class="badge">VS Code</span><span class="badge">WebStorm</span></li>
+					<li><span>Version Control: </span><span class="badge">Git</span></li>
+					<li><span>Others: </span><span class="badge">Agile</span><span class="badge">NPM</span><span class="badge">Angular CLI</span></li>
+				</ul>
+				</div>
+				<div class="col">
+					<i>Secondary</i>
+					<ul>
+						<li><span>Containerization: </span><span class="badge">Docker</span></li>
+						<li><span>Programming language: </span><span class="badge">Python</span></li>
+						<li><span>Frameworks & Libraries: </span><span class="badge">Dash</span><span class="badge">Primeng</span></li>
+					</ul>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="my-section">
+				<h4>Experience</h4>
+				<ul class="list-company">
+					<li class="list-company">
+						<div class="row company">
+						<div class="col"><span class="company-name">L&T Technology Services</span></div>
+						<div class="col"><span>Role: Senior Engineer</span></div>
+						<div class="col"><span class="tenure">Aug 2020-Present</span></div>
+						</div>
+						<br>
+						<h6>Projects:</h6>
+						<ul>
+							<li>
+								<div class="row">
+									<div class="col"><span>Real Time Well Engineering (RTWE)</span></div>
+									<div class="col"><span>Nov 2020-Present</span></div>
+									<div class="col"></div>
+								</div>
+								<div class="row">
+									<div class="col col-9">
+										<p>This web application provides all details about all the petroleum wells the user is working on. The details are divided into different  modules like Anti-collision, Torque & Drag, Dull Bit Grading and Early Kick Detection. I am working on Dull Bit Grading module.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col col-9">
+										<table class="table">
+											<tbody>
+												<tr>
+													<th scope="row">Role</th>
+													<td>Full Stack Developer</td>
+												</tr>
+												<tr>
+													<th scope="row">Technologies used</th>
+													<td>Angular 8, Primeng, Nodejs, MongoDB, Docker</td>
+												</tr>
+												<tr>
+													<th scope="row">Responsibilities</th>
+													<td><ul>
+														<li>Providing feedback/inputs on the design</li>
+														<li>Implementing the UI from scratch based on Figma design</li>
+														<li>Writing Angular services and APIs to store/retrieve data to/from DB</li>
+													</ul></td>
+												</tr>
+												<tr>
+													<th scope="row">Client</th>
+													<td>Halliburton</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<br>
+							</li>
+							<li>
+								<div class="row">
+									<div class="col"><span>Intelligent Rate of Penetration (iROP)</span></div>
+									<div class="col"><span>Sep 2020-Oct 2020</span></div>
+									<div class="col"></div>
+								</div>
+								<div class="row">
+									<div class="col col-9">
+										<p>iROP is an ML based model to predict the Rate of Penetration of a drill bit based on the factors like Lithology and Dull Bit Grading. It helps the stakeholders to measure the efficiency of the drill bit during the Well plan phase itself.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col col-9">
+										<table class="table">
+											<tbody>
+												<tr>
+													<th scope="row">Role</th>
+													<td>Front End Developer</td>
+												</tr>
+												<tr>
+													<th scope="row">Technologies used</th>
+													<td>Dash, Bootstrap 4, Django Rest Framework</td>
+												</tr>
+												<tr>
+													<th scope="row">Responsibilities</th>
+													<td><ul>
+														<li>Providing feedback/inputs on the design</li>
+														<li>Implementing the UI from scratch based on Adobe XD design</li>
+													</ul></td>
+												</tr>
+												<tr>
+													<th scope="row">Client</th>
+													<td>Halliburton</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="row company">
+						<div class="col"><span>Oracle India Pvt. Ltd</span></div>
+						<div class="col"><span>Role: IT Consultant</span></div>
+						<div class="col"><span class="tenure">July 2016-Feb 2020</span></div>
+						</div>
+						<br>
+						<h6>Projects:</h6>
+						<ul>
+							<li>
+								<div class="row">
+									<div class="col"><span>Semaphore</span></div>
+									<div class="col"><span>June 2019-Feb 2020</span></div>
+									<div class="col"></div>
+								</div>
+								<div class="row">
+									<div class="col col-9">
+										<p>With this application employees can record the tasks worked by them. Managers can track the work done by the employees on daily basis. An Employee/Manager can change the priorities of the tasks and re-assign the tickets. Managers can fetch monthly/quarterly/yearly reports on click of a button.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col col-9">
+										<table class="table">
+											<tbody>
+												<tr>
+													<th scope="row">Role</th>
+													<td>Front End Developer</td>
+												</tr>
+												<tr>
+													<th scope="row">Technologies used</th>
+													<td>HTML5, CSS3, TypeScript, Angular 8, Django Rest Framework</td>
+												</tr>
+												<tr>
+													<th scope="row">Responsibilities</th>
+													<td><ul>
+														<li>Providing feedback/inputs on the design</li>
+														<li>Application development using HTML5, CSS3 and Angular 8</li>
+														<li>Writing Angular services to call the APIs</li>
+													</ul></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<br>
+							</li>
+							<li>
+								<div class="row">
+									<div class="col"><span>ATOM</span></div>
+									<div class="col"><span>Feb 2018-Feb 2020</span></div>
+									<div class="col"></div>
+								</div>
+								<div class="row">
+									<div class="col col-9">
+										<p>With this web application, the analyst can schedule/run jobs (Refresh/Disaster recovery etc) requested by the Customer. The analyst can monitor the running jobs. The team will be alerted in case of errors in jobs.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col col-9">
+										<table class="table">
+											<tbody>
+												<tr>
+													<th scope="row">Role</th>
+													<td>Front End Developer</td>
+												</tr>
+												<tr>
+													<th scope="row">Technologies used</th>
+													<td>HTML5, CSS3, TypeScript, Angular 7, Django Rest Framework</td>
+												</tr>
+												<tr>
+													<th scope="row">Responsibilities</th>
+													<td><ul>
+														<li>Providing feedback/inputs on the design</li>
+														<li>Application development using HTML5, CSS3 and Angular 7</li>
+														<li>Writing Angular services to call the APIs</li>
+													</ul></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							
+							</li>
+							<li>Worked as Linux System Admin from July 2016-Feb 2018</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="my-section">
+				<h4>Education</h4>
+				<br>
+				<div class="col col-9">
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="col">Degree/Class</th>
+								<th scope="col">CGPA/Percentage</th>
+								<th scope="col">Institute</th>
+								<th scope="col">Year</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>B. E in Electronics & Communication</td>
+								<td>8.77/10</td>
+								<td>N.M.A.M Institute of Technology, Nitte</td>
+								<td>2016</td>
+							</tr>
+							<tr>
+								<td>P.U.C</td>
+								<td>91.83%</td>
+								<td>Poornaprajna Pre-University College, Udupi</td>
+								<td>2012</td>
+							</tr>
+							<tr>
+								<td>S.S.L.C</td>
+								<td>96.16%</td>
+								<td>St. Cecily's Girls' High School, Udupi</td>
+								<td>2010</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
